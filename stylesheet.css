@@ -1,0 +1,153 @@
+*{box-sizing: border-box;
+
+}
+/*レイアウト崩れ防止*/
+
+li {list-style: none;}
+/*リストの黒点を消す*/
+
+
+header {
+	display: inline-block;
+	height: 50px;
+	width: 100%;
+background-color: gray;
+	font-size:20px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	z-index:10;
+}
+
+header a  {
+
+	font-size: 15px;
+
+	float: left;
+	margin: 15px 15px 0 10px;
+	height: 20px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+header a:hover {
+	background-color: rgba(255,255,255,0.5);
+	cursor: pointer;
+}
+
+
+.top {
+	height: 470px;
+	width: 95%;
+	margin-top:50px;
+	background-image: url(https://instagrammernewsimg.s3.ap-northeast-1-ntt.wasabisys.com/BnH1mxbhPf1);
+	background-size:100%;
+	position: absolute;
+	font-size: 50px;
+}
+
+.top p {
+	position: absolute;
+	top:-70px;
+	left:30px;
+	font-size: 80px;
+	font-weight: bold;
+	background-color: rgba(255,255,255,0.3);
+}
+
+.plan p{
+	font-size: 20px;
+	position: absolute;
+	top:310px;
+	left:10px;
+	padding-left: 0px;
+	font-weight: bold;
+	color: green;
+
+}
+
+ul {
+	font-size: 20px;
+	position: absolute;
+	top:350px;
+	left:10px;
+	padding-left: 0px;
+	font-weight: bold;
+	background-color: rgba(255,255,255,0.5);
+
+}
+
+.menu {
+	background-color: #00CC66;
+	height: 1500px;
+	width: 100%;
+	margin: 0px;
+	padding:0px;
+}
+
+.menu p1 {
+	font-size: 30px;
+	font-weight: bold;
+	color:black;
+	position: absolute;
+	top:530px;
+	left:10%;
+}
+
+.menu p2 {
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	color:black;
+	background-color: red;
+	position: absolute;
+	top:600px;
+	left:10%;
+	height:300px;
+	width: 80%;
+	margin: 0 auto;
+	background-image: url(https://isuta.jp/wp-content/uploads/2019/04/media_64dac4eaa8ec78f708d7eb5e503ad5d870f70a25.jpg);
+	background-size:cover;
+}
+
+.p2_des {
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	position: absolute;
+	top:900px;
+	left:10%;
+
+}
+
+.menu p3 {
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	color:black;
+	background-color: red;
+	position: absolute;
+	top:1000px;
+	left:10%;
+	height:300px;
+	width: 80%;
+	margin: 0 auto;
+	background-image: url(https://twitfukuoka.com/wp-content/uploads/2021/04/202104200012.jpg);
+	background-size:cover;
+}
+
+.p3_des {
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	position: absolute;
+	top:1300px;
+	left:10%;
+
+}
+
+footer p{
+	width: 100%;
+	margin: 0 auto;
+}
